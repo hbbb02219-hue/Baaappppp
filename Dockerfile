@@ -1,14 +1,18 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
+# ✅ Updated base image (Bullseye = latest stable Debian)
+FROM nikolaik/python-nodejs:python3.10-nodejs20-bullseye
 
-RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /etc/apt/sources.list && \
-    sed -i '/security.debian.org/d' /etc/apt/sources.list && \
-    apt-get update && \
+# ✅ Update repo sources + install ffmpeg safely
+RUN apt-get update --allow-releaseinfo-change && \
     apt-get install -y --no-install-recommends ffmpeg && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
+# ✅ Copy app files
+WORKDIR /app
 COPY . /app/
-WORKDIR /app/
+
+# ✅ Install Python dependencies
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
-CMD bash start
+# ✅ Start command
+CMD ["bash", "start"]
