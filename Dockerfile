@@ -1,18 +1,20 @@
-# ✅ Updated base image (Bullseye = latest stable Debian)
-FROM nikolaik/python-nodejs:python3.10-nodejs20-bullseye
+# ✅ Use latest stable Debian bookworm base (not buster/bullseye)
+FROM python:3.10-slim-bookworm
 
-# ✅ Update repo sources + install ffmpeg safely
-RUN apt-get update --allow-releaseinfo-change && \
-    apt-get install -y --no-install-recommends ffmpeg && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+# ✅ Install Node.js (for Telegram bots needing Node)
+RUN apt-get update && apt-get install -y curl && \
+    curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+    apt-get install -y nodejs ffmpeg && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# ✅ Copy app files
+# ✅ Set working directory
 WORKDIR /app
+
+# ✅ Copy all files
 COPY . /app/
 
 # ✅ Install Python dependencies
-RUN pip3 install --no-cache-dir -U -r requirements.txt
+RUN pip install --no-cache-dir -U -r requirements.txt
 
-# ✅ Start command
+# ✅ Start the bot
 CMD ["bash", "start"]
