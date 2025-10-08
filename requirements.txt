@@ -1,1 +1,20 @@
+# Telegram Bot Dependencies
+pyrogram
+tgcrypto
+
+# Environment Loader
 python-dotenv
+
+# Async & Web
+aiohttp
+requests
+
+# Image / Media
+Pillow
+
+# Utils
+telegraph
+pytz
+
+# Optional for better performance
+uvloop
