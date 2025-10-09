@@ -12,10 +12,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_ID = getenv("BOT_ID")
 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ZeoXpro")
-BOT_USERNAME = getenv("BOT_USERNAME", "AqiaBot")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "oye_babyy")
+BOT_USERNAME = getenv("BOT_USERNAME", "Bubuckonifybot")
 BOT_NAME = getenv("BOT_NAME", "Aqia")
-ASSUSERNAME = getenv("ASSUSERNAME", "AqiaPro")
+ASSUSERNAME = getenv("ASSUSERNAME", "Bubuckonifybot")
 
 #---------------------------------------------------------------
 MONGO_DB_URI = getenv("MONGO_DB_URI")
