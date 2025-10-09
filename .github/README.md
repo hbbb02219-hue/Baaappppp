@@ -94,9 +94,9 @@ The Clonify offers a range of commands to enhance your music listening experienc
 | `/queue`                | Display the list of songs in the queue.     |
 | `/clone <bot token>`    | Clone music bot.                            |
 
-For a full list of commands, use `/help` in [telegram](https://t.me/AqiaBot).
+For a full list of commands, use `/help` in [telegram](https://t.me/ganaasupport).
 
-**Note** - Go to [Reload.py](https://github.com/TeamProBots/Clonify/blob/master/Clonify/plugins/tools/reload.py) then change my ID Number.
+**Note** - Go to [Reload.py](https://t.me/ganaasupport) then change my ID Number.
 
 ---
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -106,7 +106,7 @@ For a full list of commands, use `/help` in [telegram](https://t.me/AqiaBot).
 </h3>
 
 <p align="center">
-<a href="https://t.me/ProBotGc"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ganaasupport"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
@@ -119,4 +119,4 @@ For a full list of commands, use `/help` in [telegram](https://t.me/AqiaBot).
 
 <br />
 
-- <b> _Sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ʏᴀsɪʀ](https://github.com/YasirAkhtar) ғᴏʀ [Cʟᴏɴɪғʏ](https://github.com/TeamProBots/Clonify)._ </b>
+- <b> _Sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ʏᴀsɪʀ](https://t.me/ganaasupport) ғᴏʀ [Cʟᴏɴɪғʏ](https://t.me/ganaasupport)._ </b>
