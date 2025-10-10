@@ -33,14 +33,14 @@ OWNER_ID = int(getenv("OWNER_ID", 7355202884))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-SOURCE = getenv("SOURCE", "https://github.com/TeamProBots/Clonify")
+SOURCE = getenv("SOURCE", "https://files.catbox.moe/fv47sa.jpg")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SHONAANONYBOTS/Baaappppp")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ProBotts")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ProBotGc")
-CHAT = getenv("CHAT", "https://t.me/ProBotGc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LOVE_PERADISE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LOVE_PERADISE")
+CHAT = getenv("CHAT", "https://t.me/LOVE_PERADISE")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
