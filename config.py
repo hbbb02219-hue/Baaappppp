@@ -22,7 +22,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 
 # ✅ Your API Config (Added manually)
 API_URL = "https://api.thequickearn.xyz"
-API_KEY = "NxGBNexGenBotsa02f5a"
+API_KEY = "30DxNexGenBots6073cc"
 #---------------------------------------------------------------
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
